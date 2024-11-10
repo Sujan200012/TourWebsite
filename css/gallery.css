@@ -1,0 +1,82 @@
+ /* General body styling */
+ body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.gallery-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* About Us Section */
+.about-section {
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.about-content {
+    padding-left: 30px;
+}
+.about-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.footer a:hover {
+    color: #d4d4d4;
+}

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form with Package Gallery and Services</title>
+    <link rel="stylesheet" href="./css/booking.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src='./images/booking.png' alt="Brand Image" style="width: 100%; height: 100%; border-radius: 10px;">
+        </div>
+        <div class="right">
+            <h2>Book Your Trip</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="destination">Where to:</label>
+                    <select id="destination" required>
+                        <option value="">Select a place</option>
+                        <option value="Paris">Paris</option>
+                        <option value="London">London</option>
+                        <option value="Bali">Bali</option>
+                        <option value="Dubai">Dubai</option>
+                        <option value="Kashmir">Kashmir</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="NiagraFalls">Niagra Falls</option>
+                        <option value="Thailand">Thailand</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="persons">How Many Persons:</label>
+                    <input type="number" id="persons" required min="1">
+                </div>
+                <div class="form-group">
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate" required min="">
+                </div>
+                <div class="form-group">
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" required minlength="50" maxlength="500"></textarea>
+                </div>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    <h2>Package Gallery</h2>
+    <div class="packages">
+        <div class="package-card">
+            <img src="./images/bali.jpg" alt="Bali">
+            <h3>Bali</h3>
+            <p>Attraction: Beautiful beaches, vibrant culture, and tropical landscapes.</p>
+            <p>Price: $200</p>
+            <p>Rating: ★★★★☆</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/london.jpg" alt="London">
+            <h3>London</h3>
+            <p>Attraction: Historical landmarks, museums, and vibrant culture.</p>
+            <p>Price: $250</p>
+            <p>Rating: ★★★★★</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/dubai.jpg" alt="dubai">
+            <h3>Dubai</h3>
+            <p>Attraction: Iconic skyscrapers, luxury shopping, and desert adventures.</p>
+            <p>Price: $400</p>
+            <p>Rating: ★★★☆☆</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/Kashmir.jpg" alt="Kashmir">
+            <h3>Kashmir</h3>
+            <p>Attraction: Stunning landscapes, houseboats, and beautiful gardens.</p>
+            <p>Price: $350</p>
+            <p>Rating: ★★★★☆</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/lakshadweepa.jpg" alt="laxshdeep">
+            <h3>Lakshadweep</h3>
+            <p>Attraction:  Pristine beaches, coral reefs, and water sports.</p>
+            <p>Price: $480</p>
+            <p>Rating: ★★★★★</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/maldives.jpg" alt="maldives">
+            <h3>Maldives</h3>
+            <p>Attraction: Luxurious resorts, clear blue waters, and vibrant marine life.</p>
+            <p>Price: $700</p>
+            <p>Rating: ★★★★☆</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/Niagra falls.jpg" alt="NiagraFalls">
+            <h3>Niagra Falls</h3>
+            <p>Attraction: Breathtaking waterfalls and scenic boat tours.</p>
+            <p>Price: $230</p>
+            <p>Rating: ★★★☆☆</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/paris.jpg" alt="paris">
+            <h3>Paris</h3>
+            <p>Attraction: Iconic landmarks, art museums, and gourmet cuisine. </p>
+            <p>Price: $350</p>
+            <p>Rating: ★★★★☆</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package-card">
+            <img src="./images/thailand.jpg" alt="thailand">
+            <h3>Thailand</h3>
+            <p>Attraction: Stunning beaches, vibrant street markets, and rich culture.</p>
+            <p>Price: $300</p>
+            <p>Rating: ★★★★★</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <img src="./images/AffordableHotel.jpg" alt="Affordable Hotel">
+            <h3>Affordable Hotel</h3>
+            <p>Stay at top-rated hotels without breaking the bank.</p>
+        </div>
+        <div class="service-card">
+            <img src="./images/Food&Drinks.jpg" alt="Food & Drinks">
+            <h3>Food & Drinks</h3>
+            <p>Enjoy local cuisine and refreshing drinks.</p>
+        </div>
+        <div class="service-card">
+            <img src="./images/SafetyGuide.jpg" alt="Safety Guide">
+            <h3>Safety Guide</h3>
+            <p>Your safety is our priority with trained guides.</p>
+        </div>
+        <div class="service-card">
+            <img src="./images/Transportation.jpg" alt="Transportation">
+            <h3>Transportation</h3>
+            <p>Convenient transport options for hassle-free travel.</p>
+        </div>
+        <div class="service-card">
+            <img src="./images/Support.png" alt="24/7 Support">
+            <h3>24/7 Support</h3>
+            <p>We're here to assist you anytime, anywhere.</p>
+        </div>
+        <div class="service-card">
+            <img src="./images/LocalExperiences.jpg" alt="Local Experiences">
+            <h3>Local Experiences</h3>
+            <p>Immerse yourself in authentic local culture.</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('startDate').min = new Date().toISOString().split("T")[0];
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const startDate = new Date(document.getElementById('startDate').value);
+            const endDate = new Date(document.getElementById('endDate').value);
+            if (endDate <= startDate) {
+                alert('End Date must be greater than Start Date.');
+            } else {
+                alert('Booking successful!');
+            }
+        });
+    </script>
+</body>
+</html>
